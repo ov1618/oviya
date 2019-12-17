@@ -92,11 +92,45 @@ for i in a:
         sum=sum+i
 print(sum)
 '''
-a=[1,2,3,4,5]
-b=int(input('ent a val'))
+#maxval
+'''
+a=[1,2,5,4,3]
+max_val=a[0]
 for i in a:
-    if i>a[-1]:
-        print(i,end='')
+    if i>max_val:
+        max_val=i
+print(max_val)
+'''
+#min val
+'''
+a=[2,3,4,1,57,1]
+min_val=a[0]
+for i in a:
+    if i<min_val:
+        min_val=i
+print(min_val)
+'''
+#del duplicate
+'''
+a=[2,3,4,2,2,3,4]
+b=[]
+for i in a:
+    if i not in b:
+        b.append(i)
+print(b)
+'''
+#sum of sq-sq of sum
+'''
+a=int(input('ent val'))
+sum=0
+sum1=0
+for i in range(1,a+1):
+    sum=sum+(i*i)
+    sum1=sum1+i
+print(abs(sum-(sum1)**2))
+'''
+    
+    
     
     
 
