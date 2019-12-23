@@ -31,10 +31,7 @@ else:
 
 
 
-a=int(input('ent a val'))
-for i in range(2,20):
-    if a in i:
-        print(i)
+
         
 
 
